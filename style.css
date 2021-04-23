@@ -1,3 +1,9 @@
 body{
-    background-color: #00ffb3;
+    background-color: #aeb6b4;
+}
+h1 h2{
+    background-color: chocolate;
+}
+.button{
+    background-color: blue;
 }
