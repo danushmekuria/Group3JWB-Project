@@ -7,3 +7,8 @@ h1 h2{
 .button{
     background-color: blue;
 }
+h1 {
+    text-align: center;
+    background-color: darkgrey;
+    margin-top: 100px;
+}
