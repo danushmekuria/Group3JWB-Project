@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <h1>Task List</h1>
+    <h1 class="header">Task List</h1>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='style.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <title>Group3-JWB-Final Project</title>
 </head>
 <body>
@@ -22,6 +23,73 @@
         <button class="button" type="submit">Add Task</button>
         
       </form>
+      <h1 class="task">Tasks</h1>
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown button
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Status</a>
+          <a class="dropdown-item" href="#">Inprogress</a>
+          <a class="dropdown-item" href="#">pending</a>
+          <a class="dropdown-item" href="#">Done</a>
+          <a class="dropdown-item" href="#">Delete</a>
+
+        </div>
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Task 1</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Task subtitle</h6>
+          <p class="card-text">Task 1 description<br>Daniel Akalu<br>DueDate May 5/2021<br></p>
+          <a href="#" class="card-link">inprogress</a>
+          <a href="#" class="card-link">delete</a>
+        </div>
+      </div>
+      <h2 class="task">Tasks</h2>
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Task 2</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Task subtitle</h6>
+          <p class="card-text">Task 1 description<br>Addis Tesfaye<br>DueDate May 1/2021<br></p>
+          <a href="#" class="card-link">pending</a>
+          <a href="#" class="card-link">delete</a>
+        </div>
+      </div>
       <h3 class="task">Tasks</h3>
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Task 3</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Task subtitle</h6>
+          <p class="card-text">Task 1 description<br>Sewnet Maru<br>DueDate April 25/2021<br></p>
+          <a href="#" class="card-link">Done</a>
+          <a href="#" class="card-link">delete</a>
+        </div>
+      </div>
+      <h4 class="task">Tasks</h4>
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Task 4</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Task subtitle</h6>
+          <p class="card-text">Task 1 description<br>Alebachew<br>DueDate May 2/2021<br></p>
+          <a href="#" class="card-link">inprogress</a>
+          <a href="#" class="card-link">delete</a>
+        </div>
+      </div>
+      <div class="list-group">
+        <a href="inprogress" class="list-group-item list-group-item-action active">
+          Cras justo odio
+        </a>
+        <a href="pending" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+        <a href="Done" class="list-group-item list-group-item-action">Morbi leo risus</a>
+        <a href="inprogress" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+        <!-- <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">Vestibulum at eros</a> -->
+      </div>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"></script>
 </body>
 </html>
