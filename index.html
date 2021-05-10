@@ -1,60 +1,60 @@
-      <!DOCTYPE html>
-      <html lang="en">
-      <head>
-          <h1 class="header">Task List</h1>
-          <meta charset="UTF-8">
-          <meta http-equiv="X-UA-Compatible" content="IE=edge">
-          <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <link href='style.css' rel='stylesheet'>
-          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-          <title>Group3-JWB-Final Project</title>
-      </head>
-  <body>
-    <div class="row wrapper">
-      <div class="col-6" id="error">
-            <form id="form" action="/" method="GET">
-              <h2>Add New Task</h2>
-                <label for="tName">Task Name</label><br>
-                <input type="text" id="tName" name="taskName" required><br>
-                <label for="description">Task Description</label><br>
-                <textarea row="4" col="30"  id="tDescription" name="description" required> </textarea><br>
-                <label for="text">Assigned To</label> <br>
-                <input typ="text" id="assignTo" name="assigned" required> <br><br>
-                <label>Status</label><br>
-                <select id="Status">
-                  <option>Select Status</option>
-                  <option>Pending</option>
-                  <option>Inprogress</option>
-                  <option>ToDo</option>
-                </select>
-                <br><label for="Due Date">Due Date</label><br>
-                <input type="date" id="dueDate"><br><br> 
-                <button class="button" id="btnSubmit" type="submit">Add Task</button>
-            </form>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <h1 class="header">Task List</h1>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='style.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Group3-JWB-Final Project</title>
+</head>
+<body>
+<div class="row wrapper">
+<div class="col-6" id="error">
+      <form id="form" action="/" method="GET">
+        <h2>Add New Task</h2>
+          <label for="tName">Task Name</label><br>
+          <input type="text" id="tName" name="taskName" required><br>
+          <label for="description">Task Description</label><br>
+          <textarea row="4" col="30"  id="tDescription" name="description" required> </textarea><br>
+          <label for="text">Assigned To</label> <br>
+          <input typ="text" id="assignTo" name="assigned" required> <br><br>
+          <label>Status</label><br>
+          <select id="Status">
+            <option>Select Status</option>
+            <option>Pending</option>
+            <option>Inprogress</option>
+            <option>ToDo</option>
+          </select>
+          <br><label for="Due Date">Due Date</label><br>
+          <input type="date" id="dueDate"><br><br> 
+          <button class="button" id="btnSubmit" type="submit">Add Task</button>
+      </form>
+</div>
+<div class="col taskLists">
+        <h1 class="task">Tasks</h1>
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h4>Task 1</h4>
+          <p class="card-text">Task Name: <br>description: <br>Assigned To: Addis<br>Status: pending<br>DueDate: 05/12/2021<br></p>
+          <a href="#" class="card-link"></a>
+          <a href="#" class="card-link"></a>
+        </div>
+        <div class="container">
+          <button type="button" class="btn btn-outline-primary">Marek As Done</button>
+          <button type="button" class="btn btn-outline-danger">Delete</button>
+        </div>
       </div>
-      <div class="col taskLists">
-              <h1 class="task">Tasks</h1>
-            <div class="card" style="width: 18rem;">
-              <div class="card-body">
-                <h4>Task 1</h4>
-                <p class="card-text">Task Name: <br>description: <br>Assigned To: Addis<br>Status: pending<br>DueDate: 05/12/2021<br></p>
-                <a href="#" class="card-link"></a>
-                <a href="#" class="card-link"></a>
-              </div>
-              <div class="container">
-                <button type="button" class="btn btn-outline-primary">Marek As Done</button>
-                <button type="button" class="btn btn-outline-danger">Delete</button>
-              </div>
-            </div>
-          </div>
-      </div>
-    </div> 
+    </div>
+</div>
+</div> 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
+      crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-            crossorigin="anonymous"></script>
+      crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-            crossorigin="anonymous"></script>
-  <script src="index.js"></script>
-  </body>
+      crossorigin="anonymous"></script>
+<script src="index.js"></script>
+</body>
 </html>
