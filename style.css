@@ -1,5 +1,5 @@
-.form {
-    background-color: rgb(222, 184, 135);
+body{
+    background-color: #e2b170 !important;
 }
 .header {
     text-align: center;
@@ -8,5 +8,33 @@
     
 .button{
     background-color: blue;
+    margin-bottom: 10px;
 }
 
+form{
+    padding-left: 40px;
+    border: solid 1px #123def;
+    background-color: lightgray;
+    justify-content: center;
+    border-radius: 10px;
+    
+}
+.taskLists{
+    background-color: lightgray;
+    border: 1px solid #123def;
+     border-radius: 10px; 
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.wrapper{
+    padding-left: 40px;
+}
+.container{
+    margin-bottom: 10px;
+}
+h4{
+    text-align: center;
+}
+.task{
+    padding-left: 50px;
+}
